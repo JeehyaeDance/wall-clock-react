@@ -1,0 +1,30 @@
+.circle {
+  min-width: 500px;
+  min-height: 500px;
+  margin-top: 10%;
+  border: 5px solid #1f1717;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle span {
+  position: absolute;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+}
+
+.circle:hover .tooltipText {
+  visibility: visible;
+}
+
+.circle .tooltipText {
+  visibility: hidden;
+  position: fixed;
+  width: 250px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  z-index: 1;
+}

@@ -1,0 +1,32 @@
+.secondHand {
+  position: absolute;
+  width: 1px;
+  height: 140px;
+  background: black;
+  border-radius: 100px;
+  top: 22%;
+  left: 50%;
+  transform-origin: 0px bottom;
+}
+
+.minuteHand {
+  position: absolute;
+  width: 3px;
+  height: 100px;
+  background: black;
+  border-radius: 100px;
+  top: 30%;
+  left: 50%;
+  transform-origin: 0px bottom;
+}
+
+.hourHand {
+  position: absolute;
+  width: 5px;
+  height: 80px;
+  background: black;
+  border-radius: 100px;
+  top: 33%;
+  left: 50%;
+  transform-origin: 0px bottom;
+}
