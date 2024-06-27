@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Wall Clock React",
-  description: "coding test for Adriel",
+  description: "Analog wall clock",
 };
 
 export default function RootLayout({ children }) {
